@@ -1,0 +1,55 @@
+.Project{
+    display: flex;
+    flex-direction: column;
+    padding:40px 0px;
+
+    h1{
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 87px;
+        text-transform: capitalize;
+
+        padding: 40px 100px;
+
+        color: var(--secondary-color);
+    }
+
+    .projectsPics{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+
+        .containBtn{
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            img{
+                
+                position: absolute;
+            }
+
+            .roundedBtn{
+                position: absolute;
+                right: 140px;
+                bottom: 10px;
+                color: #fff;
+                border-radius: 50%;
+                border: 1px solid #fff;
+                padding: 87px 67px;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+
+        li{
+            
+            img{
+                filter: brightness(50%);
+            
+            }
+        }
+    }
+}
